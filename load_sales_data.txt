@@ -1,0 +1,35 @@
+-- Paste this into DB Fiddle Query SQL after your sales table is defined in Schema SQL.
+INSERT INTO sales (order_id, order_date, customer, city, category, product, quantity, unit_price, sales, cost, profit, profit_margin)
+VALUES
+(1001, '2026-01-03', 'Rahul', 'Delhi', 'Electronics', 'Laptop', 1, 55000, 55000, 42000, 13000, 0.2364),
+(1002, '2026-01-04', 'Priya', 'Noida', 'Furniture', 'Office Chair', 2, 4500, 9000, 5600, 3400, 0.3778),
+(1003, '2026-01-06', 'Aman', 'Gurgaon', 'Electronics', 'Headphones', 3, 2000, 6000, 3300, 2700, 0.4500),
+(1004, '2026-01-08', 'Neha', 'Delhi', 'Furniture', 'Study Table', 1, 8500, 8500, 6100, 2400, 0.2824),
+(1005, '2026-01-10', 'Rohit', 'Noida', 'Electronics', 'Monitor', 2, 12000, 24000, 17600, 6400, 0.2667),
+(1006, '2026-01-12', 'Isha', 'Gurgaon', 'Furniture', 'Bookshelf', 1, 6500, 6500, 4300, 2200, 0.3385),
+(1007, '2026-01-14', 'Karan', 'Delhi', 'Electronics', 'Keyboard', 4, 1500, 6000, 3200, 2800, 0.4667),
+(1008, '2026-01-16', 'Meera', 'Noida', 'Electronics', 'Laptop', 1, 58000, 58000, 44500, 13500, 0.2328),
+(1009, '2026-01-18', 'Vikas', 'Gurgaon', 'Furniture', 'Office Chair', 3, 4200, 12600, 7800, 4800, 0.3810),
+(1010, '2026-01-20', 'Ananya', 'Delhi', 'Electronics', 'Headphones', 2, 2200, 4400, 2400, 2000, 0.4545),
+(1011, '2026-01-22', 'Arjun', 'Noida', 'Furniture', 'Study Table', 2, 8000, 16000, 11200, 4800, 0.3000),
+(1012, '2026-01-24', 'Simran', 'Gurgaon', 'Electronics', 'Monitor', 1, 12500, 12500, 9100, 3400, 0.2720),
+(1013, '2026-02-02', 'Rahul', 'Delhi', 'Electronics', 'Laptop', 1, 56000, 56000, 42500, 13500, 0.2411),
+(1014, '2026-02-04', 'Priya', 'Noida', 'Furniture', 'Bookshelf', 2, 6200, 12400, 8200, 4200, 0.3387),
+(1015, '2026-02-06', 'Aman', 'Gurgaon', 'Electronics', 'Keyboard', 3, 1600, 4800, 2500, 2300, 0.4792),
+(1016, '2026-02-08', 'Neha', 'Delhi', 'Furniture', 'Office Chair', 2, 4600, 9200, 5700, 3500, 0.3804),
+(1017, '2026-02-10', 'Rohit', 'Noida', 'Electronics', 'Headphones', 4, 2100, 8400, 4600, 3800, 0.4524),
+(1018, '2026-02-12', 'Isha', 'Gurgaon', 'Furniture', 'Study Table', 1, 8200, 8200, 5900, 2300, 0.2805),
+(1019, '2026-02-14', 'Karan', 'Delhi', 'Electronics', 'Monitor', 2, 11800, 23600, 17400, 6200, 0.2627),
+(1020, '2026-02-16', 'Meera', 'Noida', 'Electronics', 'Laptop', 1, 57000, 57000, 43500, 13500, 0.2368),
+(1021, '2026-02-18', 'Vikas', 'Gurgaon', 'Furniture', 'Bookshelf', 2, 6400, 12800, 8600, 4200, 0.3281),
+(1022, '2026-02-20', 'Ananya', 'Delhi', 'Electronics', 'Keyboard', 2, 1550, 3100, 1650, 1450, 0.4677),
+(1023, '2026-02-22', 'Arjun', 'Noida', 'Furniture', 'Office Chair', 1, 4700, 4700, 2900, 1800, 0.3830),
+(1024, '2026-02-24', 'Simran', 'Gurgaon', 'Electronics', 'Monitor', 2, 12200, 24400, 17800, 6600, 0.2705),
+(1025, '2026-03-02', 'Rahul', 'Delhi', 'Furniture', 'Study Table', 1, 8700, 8700, 6200, 2500, 0.2874),
+(1026, '2026-03-04', 'Priya', 'Noida', 'Electronics', 'Laptop', 1, 59000, 59000, 45000, 14000, 0.2373),
+(1027, '2026-03-06', 'Aman', 'Gurgaon', 'Electronics', 'Headphones', 5, 1950, 9750, 5200, 4550, 0.4667),
+(1028, '2026-03-08', 'Neha', 'Delhi', 'Furniture', 'Bookshelf', 1, 6700, 6700, 4500, 2200, 0.3284),
+(1029, '2026-03-10', 'Rohit', 'Noida', 'Electronics', 'Monitor', 1, 12100, 12100, 8800, 3300, 0.2727),
+(1030, '2026-03-12', 'Isha', 'Gurgaon', 'Furniture', 'Office Chair', 2, 4400, 8800, 5500, 3300, 0.3750);
+
+SELECT COUNT(*) AS total_rows FROM sales;
